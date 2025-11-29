@@ -4,10 +4,10 @@ class Solution
     { 
         int arr[] = {1, 2, 5, -4, 6,-9};
         
-        System.out.println(maxSubArray(arr));
+        System.out.println(maxSubArr(arr));
     }
 
-    public static int maxSubArray(int [] arr)
+    public static int maxSubArr(int [] arr)
     {
         int max = arr[0]; 
         int sum = 0; 
