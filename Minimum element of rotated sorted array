@@ -3,7 +3,7 @@ import java.util.*;
 class Solution {
     public static void main(String[] args) {
         int nums[] = {3, 4, 5, 1, 2};
-        int n = 5;
+        int n = 2;
         
         while (n > 0) {
             rotate(nums);
